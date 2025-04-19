@@ -22,7 +22,7 @@ while True:
     try:
         text = recognizer.recognize_google(audio, language="ru-RU")
         text1 = text.lower()
-        print('вы сказали: ' + text1)
+        #print('вы сказали: ' + text1)
         
         if text1 == 'открой проводник':
             os.startfile(provodnik)
